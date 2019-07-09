@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+
+}
+#main{
+	width: 100%;
+	height: 660px;
+}
+#main img{
+	width: 100%;
+	height: 660px;
+}
+#lgform{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 450px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.7);
+	padding: 0px 40px;
+}
+
+h2{
+	
+	margin-bottom: 40px;
+	color: #efed40;
+	text-align: center;
+}
+#lgform p{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #fff;
+}
+#lgform input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#lgform input[type="text"],
+#lgform input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+
+	color: rgba(255,255,255,.5);
+}
+.Submit
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #f96167;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#lgform input[class="Submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+#lgform a{
+	padding-left: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+#lgform a:hover{
+	color: #f96167;
+
+}
+#error{
+color: red;
+}
+#passerror{
+color: red;
+}
+.ad_btn li{
+	list-style: none;
+}
